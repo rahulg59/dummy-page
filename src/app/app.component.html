@@ -1,0 +1,41 @@
+<!-- <nav>
+  <ul>
+    <li>
+      <a routerLink="home" routerLinkActive="link-active">Home</a>
+    </li>
+    <li>
+      <a routerLink="about" routerLinkActive="link-active">About</a>
+    </li>
+    <li>
+      <a routerLink="contact" routerLinkActive="link-active">Contact</a>
+    </li>
+  </ul>
+</nav> -->
+<header class="header">
+  <a routerLink="home" class="logo">Developer</a>
+  <nav class="nav-items">
+    <a routerLink="home" routerLinkActive="link-active">Home</a>
+    <a routerLink="about" routerLinkActive="link-active">About</a>
+    <a routerLink="contact" routerLinkActive="link-active">Contact</a>
+  </nav>
+</header>
+<main class="body-content">
+  <router-outlet></router-outlet>
+</main>
+<footer class="footer">
+  <div class="copy">© 2022 Developer</div>
+  <div class="bottom-links">
+    <div class="links">
+      <span>More Info</span>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="links">
+      <span>Social Links</span>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
